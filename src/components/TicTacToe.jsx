@@ -69,7 +69,7 @@ export default function TicTacToe() {
     if (pos[2] === CROSS && pos[5] === CROSS && pos[8] === CROSS) return CROSS;
 
     if (pos[0] === CROSS && pos[4] === CROSS && pos[8] === CROSS) return CROSS;
-    if (pos[2] === CROSS && pos[4] === CROSS && pos[5] === CROSS) return CROSS;
+    if (pos[2] === CROSS && pos[4] === CROSS && pos[6] === CROSS) return CROSS;
 
     if (pos.every((index) => index !== EMPTY)) {
       return "It's a Tie";
